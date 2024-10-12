@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+
+    overflow-x: hidden;
+    font-family: "Work Sans", sans-serif;
+ 
+}
+body p{
+    color: gray;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav, .overlay{
+    background-color: #306ee8;
+    margin: 0;
+    position: relative;
+    z-index: 2;
+}
+.navitems{
+    justify-content: center;
+}
+.itemcolor{
+    color: white;
+}
+
+ .feature{
+    background-color: #306ee8;
+    color: white;
+ }
+
+
+.icon{
+    font-size: 50px;
+    color: white;
+  
+}
+.iconf{
+    font-size: 30px;
+    color: #306ee8;
+    background: #fff;
+    display: inline-block;
+    text-align: center;
+    border-radius: 4px;
+  
+    box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 0.1);
+
+   
+}
+
+.sec{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sec-services{
+background: rgba(0, 0, 0, 0.05);
+}
+.servicecard{
+    padding: 40px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    background: #fff;
+    height: 430px;
+}
+.serviceicon{
+    font-size: 50px;
+    color: #306ee8;
+}
+
+.sec-cta {
+    position: relative;
+    width: 100%;
+ 
+    background: url('./img-3.jpg') center/cover no-repeat;
+}
+
+.sec-cta::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(48, 110, 232, 0.9);
+    z-index: 1;
+}
+
+.sec-cta-content {
+    position: relative;
+            z-index: 2;
+            color: white;
+        
+}
+.heading{
+    color: white;
+}
+.cd{
+    width: 354px;
+    background-color: white !important;
+}
+
+.site-footer{
+    background-color: #306ee8;
+    color: #fff;
+}
+.latest{
+    text-align: center;
+}
+.footeritem{
+    color: white;
+}
+.bloghead{
+    color: white;
+    font-weight: bold;
+}
+.blogsec{
+    height: 87vh !important;
+    display: flex;
+   text-align: center;
+    align-items: center;
+}
+
+.aboutbg{
+    background-image: url('img-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.aboutbg2{
+    background-image: url('img-3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.address{
+    display: flex;
+}
+
+.contacticon{
+    border-radius: 50%;
+    background: #306EE8;
+    color: #fff;
+    padding: 12px;
+    margin: 8px;
+    font-size: 20px;
+}
+
+
+.graytext{
+    font-size: 18px;
+    color: gray;
+}
+@media (max-width: 768px) {
+    .section {
+      padding: 0 !important;
+      margin: 30px 0 !important;    
+    }
+  }
+.bio{
+    width: 50px;
+    border-radius: 50%;
+}
+.comment-list, .children{
+    list-style: none;
+    padding: unset;
+}
+ .comment-body{
+    padding-left: 60px;
+ }
+ .subblog{
+    background: #fff;
+ }
+ .shareicon{
+    padding: 10px;
+    border: 1px solid gray;
+    color: black;
+    border-radius: 50%;
+
+ }
+.reply{
+    background-color: rgb(212, 203, 203);
+    color: #fff;
+    border-radius:25px;
+    padding: 12px;
+
+}
+.btn{
+    background-color: #fff;
+    color: #306EE8;
+
+}
+
+.textwhite{
+    color: #fff !important;
+}
+.textbold{
+    font-weight: bold;
+}
+ 
+
+.slider-item {
+    padding: 0 15px; /* Add padding to ensure equal spacing */
+  }
+  
+  .slick-slide {
+    display: flex;
+    justify-content: center; /* Center the card inside each slide */
+  }
+  
+  .slider-item .card {
+    width: 100%; /* Ensure the card takes the full width */
+  }
+  
+  /* Custom Next Button */
+.custom-next {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  z-index: 1;
+  cursor: pointer;
+  font-size: 24px; /* Adjust the size */
+  color: #333; /* Adjust the color */
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.8); /* Optional background */
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.custom-next:hover {
+  color: #f1592a; /* Hover effect */
+  background-color: rgba(255, 255, 255, 1);
+}
+
+/* Custom Prev Button */
+.custom-prev {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: 1;
+  cursor: pointer;
+  font-size: 24px; /* Adjust the size */
+  color: #333; /* Adjust the color */
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.8); /* Optional background */
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.custom-prev:hover {
+  color: #f1592a; /* Hover effect */
+  background-color: rgba(255, 255, 255, 1);
+}
+
+  
+.slick-next {
+    display: none !important; /* Hides the next button */
+  }
+
+  @keyframes slideUp {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Apply the animation to the .hero class */
+  .animation {
+    animation: slideUp 1s ease-out;
+  }
+
+  .animation2 {
+    transform: translateY(100%);
+    opacity: 0;
+    transition: all 1s ease-out;
+  }
+  
+  .animate-on-scroll {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  /* For example purposes (to see scrolling effect) */
+  .content {
+    height: 100vh;
+  }
+  
