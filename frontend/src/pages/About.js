@@ -18,10 +18,10 @@ const About = () => {
 
     <div class="container-fluid">
   <div class="row">
-    <div class="col-6  aboutbg">
+    <div class="col-6 col-sm-12 aboutbg">
       
     </div>
-    <div class="col-6">
+    <div class="col-6 col-sm-12">
     <div class="  text p-5">
 				<h2 class="heading text-primary mb-3 textbold ">We are trusted by more than 5,000 clients</h2>
 				<p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
@@ -31,14 +31,14 @@ const About = () => {
   
 
  
-    <div class="col-6">
+    <div class="col-6 col-sm-12">
     <div class="text p-5">
 				<h2 class="heading text-primary mb-3 textbold">We are trusted by more than 5,000 clients</h2>
 				<p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 				{/* <p><a href="#" class="btn btn-outline-primary py-2">Read more</a></p> */}
 			</div>
     </div>
-    <div class="col-6 aboutbg2">
+    <div class="col-6  col-sm-12 aboutbg2">
    
     </div>
 	</div>
